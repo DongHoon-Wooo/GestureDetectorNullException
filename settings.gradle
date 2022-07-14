@@ -1,0 +1,4 @@
+apply from: "gradle/version_catalogs.gradle"
+
+rootProject.name = "BsseProject"
+include ':app'

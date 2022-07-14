@@ -1,0 +1,15 @@
+enableFeaturePreview("VERSION_CATALOGS")
+dependencyResolutionManagement {
+    versionCatalogs {
+        libs {
+            from(files("versions/libs.toml"))
+        }
+        androidxLibs {
+            from(files("versions/androidx.toml"))
+        }
+        googleLibs {
+            from(files("versions/google.toml"))
+        }
+    }
+}
+
